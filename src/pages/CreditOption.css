@@ -1,0 +1,82 @@
+.reg_form {
+  background: #000;
+  padding: 120px 0 80px;
+}
+
+.reg_form_con {
+  width: 450px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.reg_form_con p {
+  font-size: 16px;
+}
+
+.reg_form_con h5 {
+  font-size: 35px;
+  font-weight: 600;
+  padding: 5px 0 10px;
+}
+
+.reg_form_con h6 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #ddd;
+  margin-right: 60px;
+  margin-bottom: 10px;
+}
+
+.reg_form_con span {
+  font-size: 30px;
+  color: #ddd;
+  margin-bottom: 10px;
+}
+
+.reg_form_con span svg {
+  margin-right: 10px;
+}
+
+.reg_form_con button {
+  padding: 10px;
+  width: 100%;
+  color: #fff;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  font-size: 25px;
+  background: crimson;
+  margin: 10px 0;
+}
+
+.reg_form_sub input {
+  width: 410px;
+  border: 1px solid #999;
+  background: #000;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  color: #ddd;
+  padding: 20px;
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+.reg_form_sub input:focus {
+  outline: 0;
+}
+
+.reg_form_sub p {
+  margin-bottom: 8px;
+  margin-top: -4px;
+  color: crimson;
+}
+
+.input_check {
+  padding: 0 !important;
+  display: inline-block !important;
+}

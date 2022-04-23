@@ -1,0 +1,51 @@
+.reg_step_scene {
+  background: #000;
+  padding: 160px 0 80px;
+}
+
+.reg_step_con {
+  text-align: center;
+  color: #fff;
+}
+
+.reg_step_con_icons {
+  color: #fff;
+  font-size: 80px;
+}
+
+.reg_step_con_icons svg {
+  margin: 10px;
+}
+
+.reg_step_con p {
+  font-size: 16px;
+}
+
+.reg_step_con h5 {
+  font-size: 40px;
+  width: 450px;
+  margin: 0 auto;
+  padding: 5px 0 15px;
+}
+
+.reg_step_con h6 {
+  font-size: 18px;
+  width: 400px;
+  margin: 0 auto;
+  font-weight: 400;
+  color: #ddd;
+}
+
+.reg_step_con button {
+  padding: 10px 120px;
+  font-size: 25px;
+  color: #fff;
+  background: crimson;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  margin: 20px 0;
+  cursor: pointer;
+}

@@ -1,0 +1,85 @@
+.banner {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/banner.jpg);
+  height: 100vh;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bannerCon {
+  color: #fff;
+  padding: 200px 0 0;
+  text-align: center;
+}
+
+.bannerCon h1 {
+  font-size: 3.125rem;
+  width: 640px;
+  font-weight: 700;
+  margin: 0 auto;
+}
+
+.bannerCon h3 {
+  font-size: 1.625rem;
+  width: 640px;
+  margin: 1rem auto;
+  font-weight: 600;
+}
+
+.bannerCon h6 {
+  font-size: 1.2rem;
+  width: 640px;
+  margin: 1rem auto;
+  font-weight: 600;
+}
+
+.signupForm {
+  height: 60px;
+  background: #fff;
+  display: inline-block;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+
+.signupForm input {
+  font-size: 18px;
+  color: #111;
+  background: #fff;
+  border: none;
+  width: 440px;
+  padding: 10px 20px;
+  border-radius: 2px 0 0 2px;
+  -webkit-border-radius: 2px 0 0 2px;
+  -moz-border-radius: 2px 0 0 2px;
+  -ms-border-radius: 2px 0 0 2px;
+  -o-border-radius: 2px 0 0 2px;
+  font-weight: 400;
+}
+
+.signupForm input:focus {
+  outline: 0;
+}
+
+.signupForm button {
+  font-size: 1.625rem;
+  background: red;
+  color: #fff;
+  min-height: 60px;
+  width: 200px;
+  border-radius: 0 2px 2px 0;
+  -webkit-border-radius: 0 2px 2px 0;
+  -moz-border-radius: 0 2px 2px 0;
+  -ms-border-radius: 0 2px 2px 0;
+  -o-border-radius: 0 2px 2px 0;
+  border-left: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.signupForm p {
+  text-align: left;
+  margin: 5px 0;
+  font-size: 18px;
+  color: rgba(241, 245, 0, 0.9);
+}

@@ -1,0 +1,36 @@
+.sec_two {
+  background: #000;
+  border-top: 5px Solid #333;
+}
+
+.sec_two_con {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.sec_two_con_left {
+  width: 48%;
+  padding: 20px 0;
+}
+
+.sec_two_con_left h1 {
+  font-size: 3.15rem;
+  font-weight: 600;
+}
+
+.sec_two_con_left h2 {
+  font-size: 1.8rem;
+  margin-top: 15px;
+  font-weight: 400;
+}
+
+.sec_two_con_right {
+  width: 48%;
+}
+
+.sec_two_con_right img {
+  width: 100%;
+}

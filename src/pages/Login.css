@@ -1,0 +1,100 @@
+.login {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/banner.jpg);
+  height: 100vh;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 700px;
+}
+
+.loginTop {
+  padding-top: 110px;
+}
+
+.loginCon {
+  width: 420px;
+  background: rgba(0, 0, 0, 0.85);
+  padding: 50px;
+  margin: 0 auto;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.loginTopPara {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.loginForm p {
+  font-size: 15px;
+  color: #ffc400;
+}
+
+.loginForm input {
+  margin-top: 20px;
+  background: #404040;
+  color: #ddd;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  font-size: 1.115rem;
+  padding: 15px;
+  width: 390px;
+}
+
+.loginForm input::placeholder {
+  color: #999;
+}
+
+.loginForm input:focus {
+  outline: 0;
+}
+
+.loginForm button {
+  padding: 15px;
+  width: 100%;
+  color: #fff;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  font-size: 20px;
+  background: red;
+  margin: 40px 0;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.googleLoginBtn {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.googleLoginBtn svg {
+  font-size: 22px;
+  margin-right: 5px;
+}
+
+.googleLoginBtn p {
+  font-size: 15px;
+  color: #888;
+}
+
+.signUpBtn {
+  font-size: 16px;
+  color: #ddd;
+}
+
+.signUpBtn span {
+  color: #888;
+}

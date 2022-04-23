@@ -1,0 +1,41 @@
+.faq-que-sec {
+  background: #000;
+  border-top: 5px solid #333;
+  padding: 40px 0;
+}
+
+.faq-que {
+  text-align: center;
+  width: 640px;
+  margin: 0 auto;
+}
+
+.faq-que h1 {
+  font-size: 2.7rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.faq-que-li {
+  margin-top: 40px;
+}
+
+.faq-que-li button {
+  background: #303030;
+  padding: 20px;
+  color: #fff;
+  width: 640px;
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.faq-que-active {
+  background: #303030;
+  padding: 10px;
+  color: #fff;
+  font-size: 1.25rem;
+  margin-top: 2px;
+  text-align: left;
+}
