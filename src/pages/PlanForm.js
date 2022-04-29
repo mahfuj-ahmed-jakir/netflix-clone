@@ -6,8 +6,15 @@ import { TiTick } from "react-icons/ti";
 import { FaMobileAlt } from "react-icons/fa";
 import { BsTabletLandscape, BsTv } from "react-icons/bs";
 import { RiComputerLine } from "react-icons/ri";
+import { useNavigate } from "react-router-dom";
 
 const PlanForm = () => {
+  const navigate = useNavigate();
+
+  let handleNext = () => {
+    navigate("/payment");
+  };
+
   return (
     <>
       <Header />
@@ -29,7 +36,9 @@ const PlanForm = () => {
             </h6>
             <div className="plan_con">
               <div className="plan_con_box"></div>
-              <div className="plan_con_box_sm">Mobile</div>
+              <div className="plan_con_box_sm" style={{ background: "crimson" }}>
+                Mobile
+              </div>
               <div className="plan_con_box_sm">Basic</div>
               <div className="plan_con_box_sm">Standard</div>
               <div className="plan_con_box_sm">Premium</div>
@@ -101,7 +110,7 @@ const PlanForm = () => {
                 <BsTv />
               </div>
             </div>
-            <button>Next</button>
+            <button onClick={handleNext}>Next</button>
           </div>
         </div>
       </section>

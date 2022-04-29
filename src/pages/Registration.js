@@ -3,8 +3,15 @@ import "./Registration.css";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import { TiTick } from "react-icons/ti";
+import { useNavigate } from "react-router-dom";
 
 const Registration = () => {
+  const navigate = useNavigate();
+
+  let handleNext = () => {
+    navigate("/planform");
+  };
+
   return (
     <>
       <Header />
@@ -25,7 +32,7 @@ const Registration = () => {
             <h6>
               <TiTick className="tick_text" /> No ads and no extra fees. Ever.
             </h6>
-            <button>Next</button>
+            <button onClick={handleNext}>Next</button>
           </div>
         </div>
       </section>
