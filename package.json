@@ -1,5 +1,6 @@
 {
   "name": "netflix-clone",
+  "homepage": "https://netflix-clone-mahfuj.netlify.app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
